@@ -1,4 +1,4 @@
-package practic8_new;
+package practic8;
 
 public class Skirt implements Priceable{
     private final String brand = "Lacoste";

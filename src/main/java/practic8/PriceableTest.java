@@ -1,4 +1,4 @@
-package practic8_new;
+package practic8;
 
 import java.util.ArrayList;
 import java.util.List;

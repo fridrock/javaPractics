@@ -1,4 +1,4 @@
-package practic8_new;
+package practic8;
 
 public class Computer implements Priceable{
     private final String model = "Lenovo";

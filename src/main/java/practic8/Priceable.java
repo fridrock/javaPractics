@@ -1,4 +1,4 @@
-package practic8_new;
+package practic8;
 
 public interface Priceable {
     double getPrice();

@@ -38,15 +38,7 @@ public class Human {
             System.out.println(side + " рука опущена.");
         }
 
-        public static void main(String[] args) {
-            Human person = new Human();
-            person.speak("Привет, мир!");
-            person.walk();
-            person.raiseLeftHand();
-            person.raiseRightHand();
-            person.lowerLeftHand();
-            person.lowerRightHand();
-        }
+
     }
     private Head head;
     private Leg leftLeg;

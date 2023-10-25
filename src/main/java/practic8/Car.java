@@ -1,4 +1,4 @@
-package practic8_new;
+package practic8;
 
 public class Car implements Priceable{
     private final String name = "Mercedec";
