@@ -24,6 +24,8 @@ public class GIF extends JFrame
             if(currentImage<=images.length-1) {
                 repaint();
                 currentImage++;
+            }else{
+                currentImage = 0;
             }
         });
         timer.start();

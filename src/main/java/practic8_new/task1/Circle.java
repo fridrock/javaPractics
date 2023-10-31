@@ -15,7 +15,7 @@ class Circle extends Shape
     }
 
     @Override
-    public void Draw(Graphics graph)
+    public void draw(Graphics graph)
     {
         graph.setColor(color);
         graph.fillOval(x, y, radius * 2, radius * 2);

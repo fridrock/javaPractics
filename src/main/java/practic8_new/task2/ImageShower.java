@@ -9,13 +9,13 @@ import javax.imageio.ImageIO;
 
 public class ImageShower extends JFrame
 {
-    private final BufferedImage Image;
+    private final BufferedImage image;
 
     public ImageShower(String imagePath) throws IOException
     {
-        Image = ImageIO.read(new File(imagePath));
+        image = ImageIO.read(new File(imagePath));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(Image.getWidth(), Image.getHeight());
+        setSize(image.getWidth(), image.getHeight());
         setVisible(true);
     }
 
@@ -23,6 +23,6 @@ public class ImageShower extends JFrame
     public void paint(Graphics graph)
     {
         super.paint(graph);
-        graph.drawImage(Image, 0, 0, this);
+        graph.drawImage(image, 0, 0, this);
     }
 }

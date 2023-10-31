@@ -28,7 +28,7 @@ public class RandomShapes extends JFrame
         super.paint(graph);
         for (Shape shape : shapes)
         {
-            shape.Draw(graph);
+            shape.draw(graph);
         }
     }
 }

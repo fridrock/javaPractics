@@ -17,5 +17,5 @@ public abstract class Shape
         y = rand.nextInt(50,500);
     }
 
-    public abstract void Draw(Graphics graph);
+    public abstract void draw(Graphics graph);
 }
