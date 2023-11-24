@@ -64,6 +64,7 @@ public class LabClassUI {
     private Student createStudent(){
         System.out.println("Введите имя пользователя");
         String name = getString();
+        System.out.println("Введите балл студента");
         Double ball = getDouble();
         return new Student(name, ball);
     }

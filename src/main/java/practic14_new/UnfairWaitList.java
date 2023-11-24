@@ -1,9 +1,10 @@
-package practic19_new;
+package practic14_new;
+
+import practic14_new.WaitList;
 
 public class UnfairWaitList<T> extends WaitList<T> {
     public void remove(T element)
     {
-        System.out.println(collection.peek());
         if (!element.equals(collection.peek())) {
             collection.remove(element);
         }
@@ -13,6 +14,6 @@ public class UnfairWaitList<T> extends WaitList<T> {
     }
     @Override
     public String toString() {
-        return "UnfairWaitList { collection = " + collection + " }";
+        return "UnfairWaitList : " + collection;
     }
 }

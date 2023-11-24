@@ -1,16 +1,16 @@
-package practic19_new;
+package practic14_new;
+
+import practic14_new.WaitList;
 
 public class BoundedWaitList<T> extends WaitList<T> {
     private final int capacity;
 
     public BoundedWaitList (int capacity)
     {
+        super();
         this.capacity = capacity;
     }
-    public int getCapacity()
-    {
-        return capacity;
-    }
+
     @Override
     public void add(T element)
     {
@@ -23,6 +23,6 @@ public class BoundedWaitList<T> extends WaitList<T> {
     @Override
     public String toString()
     {
-        return "BoundedWaitList { " + "capacity = " + capacity + ", collection = " + collection + " }";
+        return "BoundedWaitList: capacity = " + capacity + ", {" + collection + " }";
     }
 }

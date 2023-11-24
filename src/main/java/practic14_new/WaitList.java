@@ -1,4 +1,4 @@
-package practic19_new;
+package practic14_new;
 
 
 import java.util.Collection;
@@ -34,6 +34,6 @@ public class WaitList<T> implements IWaitList<T> {
     }
     @Override
     public String toString() {
-        return "WaitList { collection = " + collection + " }";
+        return "WaitList: " + collection;
     }
 }
